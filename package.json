@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "rd /Q /S dist && parcel build index.html --public-url ./",
-    "push-prod": "git subtree push --prefix dist origin gh-pages"
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
     "type": "git",
