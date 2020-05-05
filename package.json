@@ -1,0 +1,27 @@
+{
+  "name": "regenerative-braking",
+  "version": "1.0.0",
+  "description": "**Abstract:-** As in today’s world, where there are energy crises and the resources are depleting at a higher rate, there is a need for specific technology that recovers the energy, which usually gets wasted. So, in case of automobiles one of these useful technologies is the regenerative braking system. Generally in automobiles whenever the brakes are applied the vehicle comes to a halt and the kinetic energy gets wasted due to friction in the form of kinetic energy. Using a regenerative braking system in automobiles enables us to recover the kinetic energy of the vehicle to some extent that is lost during the braking process. Regenerative braking system can convert the kinetic energy into electrical energy with the help of an electric motor. And it can also convert the kinetic energy into mechanical energy, which is supplied to the vehicle whenever it is needed, with the help of a flywheel.\r ## INTORDUCTION TO REGENERATIVE BRAKING\r When a conventional vehicle applies its brakes, kinetic energy is converted to heat as friction between the brake pads and wheels. This heat is carried away in the airstream and the energy is effectively wasted The total amount of energy lost in this way depends on how often, how hard and for how long the brakes are applied.",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "rd /Q /S dist && parcel build index.html --public-url ./",
+    "push-prod": "git subtree push --prefix dist origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohitsparihar/regenerative-braking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohitsparihar/regenerative-braking/issues"
+  },
+  "homepage": "https://github.com/mohitsparihar/regenerative-braking#readme",
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
